@@ -1,0 +1,41 @@
+/* css stoplight */
+.stoplight-container {
+    background: darkgray; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
+
+.light {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 0px 0px 15px 0px;
+}
+
+.red-light {
+    background-color: rgba(255, 0, 0, 0.25)
+}
+.red-light:hover {
+    background-color: rgba(255, 0, 0, 1.00)
+}
+
+.yellow-light {
+    background-color: rgba(255, 255, 0, 0.25)
+}
+
+.yellow-light:hover {
+    background-color: rgba(255, 255, 0, 1.00)
+}
+
+.green-light {
+    background-color: rgba(0, 255, 0, 0.25)
+}
+
+.green-light:hover {
+    background-color: rgba(0, 255, 0, 1.00)
+}
